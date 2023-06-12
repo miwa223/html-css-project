@@ -1,0 +1,70 @@
+.container {
+    padding: 20px 20px;
+}
+
+header .container {
+    height: auto;
+    padding: 20px 20px;
+}
+
+.leaves-img {
+    flex: 1;
+}
+
+.leaves-img.reversed {
+    flex: 1;
+}
+
+.title {
+    font-size: 2rem;
+    flex: 2;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#about .container {
+    flex-direction: column-reverse;
+    padding: 60px 36px;
+}
+
+#about .maiko-img {
+    width: 100%;
+}
+
+#about .maiko-content {
+    flex: 1;
+}
+
+#makeup .container {
+    padding: 60px 36px 80px;
+}
+
+#makeup h2 {
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+#makeup .makeup-info {
+    height: 1100px;
+    column-gap: 100px;
+}
+
+#makeup .makeup-img {
+    flex: 1 0 auto;
+}
+
+#makeup .makeup-content {
+    flex-direction: column;
+    justify-content: stretch;
+    flex: 2 2;
+}
+
+#makeup .box {
+    flex: 0 0;
+    padding: 24px;
+}
+
+#more-info .info-content img {
+    display: none;
+}
