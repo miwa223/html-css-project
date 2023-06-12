@@ -76,11 +76,6 @@ header .container {
     flex: 3 0 auto;
 }
 
-/* #about .maiko-img:hover {
-    background: url(../img/maiko-back.jpeg) no-repeat center/contain;
-    flex: 45%;
-} */
-
 #about .maiko-content {
     flex: 2;
     margin-top: 80px;
@@ -166,8 +161,6 @@ header .container {
 }
 
 #more-info .info-content img {
-    /* flex: 0, 1, 25%; */
-    /* max-width: 25%; */
     position: absolute;
     right: 0;
     height: 100%;
